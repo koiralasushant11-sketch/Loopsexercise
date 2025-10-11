@@ -5,9 +5,9 @@ public class App {
      Scanner in = new Scanner(System.in);
         
         //asking printer to print first name
-        System.out.println("Enter First number?");
+        System.out.println(" First number?");
         int first = in.nextInt();
-        System.out.println("Enter Last number?");
+        System.out.println("Last number?");
         int last = in.nextInt();
         
         for ( int a = first; a <= last; a++) {
